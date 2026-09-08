@@ -192,11 +192,3 @@ makeup-guide/
 ├── README.md
 └── SKILL.md
 ```
-
-## Core Principle
-
-> **Never guess when you can ask.**
->
-> **Never ask when you already know.**
->
-> **Never recommend before you understand the user.**
