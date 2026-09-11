@@ -177,18 +177,36 @@ It should:
 
 ## Installation
 
-Add the skill to Claude using the skill configuration and include the provided skill instructions.
+### Claude Code / skills CLI
 
-The main skill definition can be stored as:
-
-```text
-SKILL.md
+```bash
+npx skills add byte4day/Claude-makeup-skill -g -y -a claude-code
 ```
+
+Or clone and link manually:
+
+```bash
+git clone https://github.com/byte4day/Claude-makeup-skill.git
+mkdir -p ~/.claude/skills/makeup-guide
+cp Claude-makeup-skill/SKILL.md ~/.claude/skills/makeup-guide/SKILL.md
+```
+
+### Cursor
+
+```bash
+npx skills add byte4day/Claude-makeup-skill -g -y -a cursor
+```
+
+The skill entrypoint is `SKILL.md` (name: `makeup-guide`).
 
 ## Project Structure
 
 ```text
-makeup-guide/
+Claude-makeup-skill/
 ├── README.md
 └── SKILL.md
 ```
+
+## License
+
+Personal / educational use unless otherwise noted.
