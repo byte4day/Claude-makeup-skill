@@ -1,6 +1,8 @@
 # Makeup Guide
 
-An interactive Claude skill that acts like a bubbly, experienced makeup expert while using current web research to give personalized makeup recommendations.
+An interactive Agent Skill ([agentskills.io](https://agentskills.io/)) that acts like a bubbly, experienced makeup expert while using current web research to give personalized makeup recommendations.
+
+Works on Claude Code, Codex, Cursor, and other hosts that load `SKILL.md` from standard skill paths. Version **0.2.0**.
 
 ## What It Does
 
@@ -203,8 +205,10 @@ The skill entrypoint is `SKILL.md` (name: `makeup-guide`).
 
 ```text
 Claude-makeup-skill/
+├── CHANGELOG.md
 ├── README.md
-└── SKILL.md
+├── SKILL.md
+└── VERSION
 ```
 
 ## License
